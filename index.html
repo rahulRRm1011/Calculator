@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1 style="text-align: center; font-size: xx-large;">CALCULATOR</h1>
+    <div class="cal" style="height: 100vh;">
+        
+        <div class="cal1">
+            
+                <input type="text" placeholder="Enter" id="result">
+           
+            <button type="button" class="btn" onclick="displayData('7')">7</button>
+            <button type="button" class="btn" onclick="displayData('8')">8</button>
+            <button type="button" class="btn " onclick="displayData('9')">9</button>
+            <button type="button" class="btn a1" onclick="displayData('&#247;')">&#247;</button>
+            <button type="button" class="btn " onclick="displayData('4')">4</button>
+            <button type="button" class="btn " onclick="displayData('5')">5</button>
+            <button type="button" class="btn " onclick="displayData('6')">6</button>
+            <button type="button" class="btn a1" onclick="displayData('&#215;')">&#215;</button>
+            <button type="button" class="btn " onclick="displayData('1')">1</button>
+            <button type="button" class="btn " onclick="displayData('2')">2</button>
+            <button type="button" class="btn " onclick="displayData('3')">3</button>
+            <button type="button" class="btn a1" onclick="displayData('+')">+</button>
+            <button type="button" class="btn" onclick="clearValues()">AC</button>
+            <button type="button" class="btn" onclick="displayData('0')">0</button>
+            <button type="button" class="btn" onclick="calResult()">=</button>
+            <button type="button" class="btn a1" onclick="displayData('-')">-</button>
+            <button type="button" class="btn" onclick="delLastValue()">&#8855;</button>
+            <button type="button" class="btn e1" onclick="displayData('Enter')">Enter</button>
+            
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>

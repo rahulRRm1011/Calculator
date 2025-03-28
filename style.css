@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image:url(./1.webp);
+    background-size: cover;
+}
+
+.cal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+
+
+.cal1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 80px;
+    width: 500px;
+}
+input{
+    grid-column: 1/5;
+    background-color: aqua;
+    font-size: xx-large;
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+    text-align: center;
+   
+
+}
+.btn{
+    border: 1px solid black;
+    font-size: xx-large;
+    text-align: center;
+    background-color: blue;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+}
+.e1{
+    grid-column: 2/5;
+    border-color: blueviolet;
+    border: 1px solid black;
+}
+.a1{
+    background-color: blueviolet;
+}
